@@ -4,10 +4,8 @@ import { faAngleLeft, faAngleRight, faQuoteRight} from '@fortawesome/free-solid-
 import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
-import { BrowserRouter as Router } from 'react-router-dom';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import { useState } from 'react';
-import { Carousel } from 'react-responsive-carousel';
+
 
 // let slideIndex = 1;
 
@@ -142,7 +140,7 @@ const Landingpagedesign = (props) => {
                         </div>
                     </div>
                 </div>
-                <div className='testimonials-card'>
+                {/* <div className='testimonials-card'>
                     <div className='quote1'>
                     <FontAwesomeIcon icon={faQuoteLeft} className='leftquote'/>
                     </div>
@@ -159,7 +157,7 @@ const Landingpagedesign = (props) => {
                             <p className='avatar-role'>Food Specialist</p>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div className='circle-right'>
                         <div className='circle'>
                         {/* <a className="prev" onclick="nextSlide(-1)" href=''>&#10094;</a> */}
