@@ -4,11 +4,11 @@
 }
 .layout{
     background-color: #FCFAFA;
-    /* max-width: 100%; */
+    max-width: 100%;
     height: 100vh;
     /* max-width: 1440px; */
     position: relative;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 .navbar{
     /* width: 1440px; */
@@ -17,7 +17,7 @@ padding: 22px 142.5px 22px 140px;
 background-color: #F5F7FA;
 }
 .logo{
-    width: 121.72px;
+    /* width: 121.72px; */
 height:31px;
 display: flex;
 align-items: center;
